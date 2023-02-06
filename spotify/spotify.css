@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    color: white;
+    padding: 0px 60px;
+    width: 100%;
+    height: 80px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo span{
+    font-size: 35px;
+}
+.logo h2{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+}
+.navitem ul {
+    display: flex;
+    list-style: none;
+}
+.navitem ul li {
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight:700;
+
+}
+.navitem ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navitem ul li a:hover{
+    color: green;
+}
+
+/* section1 */
+#sidegap{
+ padding-left: 4rem;
+ padding-right: 4rem;
+}
+.play{
+    background-color: #b023c3;
+    width: 100%;
+    height: 600px;
+    overflow: hidden; 
+}
+.area{
+display: flex;
+color: white;
+background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg" );
+background-size: cover;
+}
+.mobile img{
+    margin-top: 7rem ;
+    margin-left: 3rem;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+}
+.million{
+   margin-top: 14rem;
+   padding-left: 6rem;
+}
+.million h1{
+    font-size: 70px;
+    margin-bottom: 4rem; 
+}
+.million a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: white;
+    padding: 15px 15px;
+}
+/*  section2 */
+.choose h1{
+ text-align: center;
+ font-size: 40px;
+ font-weight: 800;
+ margin-top: 80px;
+}
+.why{
+    display: flex;
+    margin: 3rem 6rem;
+    justify-content: center;
+   
+}
+.btn{
+    margin: 0px 30px;
+    text-align: center;
+}
+.btn img{
+    width: 150px;
+    height: 150px;
+}
+.btn h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.btn p{
+    font-size: 18px; 
+   text-align: justify;
+   font-weight: 400;
+   margin-bottom: 60px;
+}
+/* section3 */
+.free{
+    background-color: rgb(176 35 194);
+    width: 100%;
+
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding: 170px;
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg" );
+background-size: cover;
+}
+/* section4 */
+.drop{
+    width: 100%;
+    height: 500px;
+}
+.got{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.dropdown ul li{
+    margin: 1rem 4rem;
+    display: block;
+    font-size: 20px;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.196);
+}
+.dropdown ul li:hover{
+    text-decoration: underline; 
+}
+.dropdown span{
+    float: right;
+}
+/* secton5 */
+.ready{
+    background-color: rgb(176 35 194);
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg" );
+background-size: cover;
+width: 100%;
+  
+}
+#pl{
+    text-align: center;
+}
+.milliona{
+    padding: 200px 0px;
+}
+.milliona a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: white;
+    padding: 15px 15px;
+}
+.milliona h1{
+    font-size: 70px;
+   margin-bottom: 3rem;
+    color: white;
+}
+/* section6 */
+.ft{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 350px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+   padding: 30px 60px;
+}
+.spot{
+    font-size: 25px;
+}
+.company{
+    text-align: justify;
+    padding-top: 15px;
+}
+.company h4{
+    margin-bottom: 10px;
+}
+.company ul  li{
+list-style: none;
+padding: 12px 0px ;
+}
+.comm{
+    text-align: justify;
+    padding-top: 15px;
+}
+.comm h4{
+    margin-bottom: 10px;
+}
+.comm ul li{
+    list-style: none;
+padding: 12px 0px ;
+}
+.lin{
+    text-align: justify;
+    padding-top: 15px;
+}
+.lin h4{
+    margin-bottom: 10px;
+}
+.lin ul li{
+    list-style: none;
+    padding: 12px 0px ;
+}
+.social ul {
+    display: flex;
+    list-style: none;
+}
+.social ul li{
+    padding: 20px 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #222326;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.foot ul li:hover{
+    color: green;
+}
+/* footer */
+.end{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 45px;
+}
+.end ul{
+    display: flex;
+    list-style: none;
+    padding-bottom: 40px;
+    padding-left: 6rem;
+}
+.end ul li{
+    padding: 10px 14px;
+}
+.end ul li:hover{
+    color: green;
+}
